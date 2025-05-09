@@ -66,7 +66,9 @@ API Endpoints
 Create a Customer and add Transaction
 
 Endpoint: api/retailer/createCustomer
+
 Method:  POST
+
 Request Body:
      {
     "name": "Raj",
@@ -88,7 +90,9 @@ Response:
 Add a new Transaction
 
 EndPoint: api/retailer/addTransaction
+
 Method: POST
+
 Request Body:
 {
     "transactionAmount": 101,
@@ -96,7 +100,7 @@ Request Body:
     "transactionDate": "2024-01-28"
 }
 
-Response
+Response:
   Status Code: 200 OK
   Body: Transaction sucessfully added
 
