@@ -69,14 +69,13 @@ Endpoint: api/retailer/createCustomer
 Method:  POST
 Request Body:
      {
-    
-    "name":"Raj",
-    "transactions":[
-    {
-        
-        "transactionAmount":120,
-        "transactionDate": "2024-01-28"
-    }
+    "name": "Raj",
+    "customerId": "cust1",
+    "transactions": [
+        {
+            "transactionAmount": 120,
+            "transactionDate": "2024-01-28"
+        }
     ]
 }
 
